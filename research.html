@@ -19,19 +19,6 @@
       <a href="research.html">RESEARCH</a>
       <a href="startups.html">STARTUPS</a>
       <a href="software.html">SOFTWARE</a>
-      <div class="dropdown">
-        <a href="#">MUSIC</a>
-        <div class="dropdown-menu">
-          <a href="production.html">Production</a>
-          <a href="mixing.html">Mixing</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <a href="#">PHOTOS</a>
-        <div class="dropdown-menu">
-          <a href="photos.html">Martin</a>
-        </div>
-      </div>
     </nav>
   </header>
 
@@ -41,7 +28,39 @@
     <!-- Intro -->
     <div class="research-intro">
       <h2>Research &amp; Publications</h2>
-      <p>I am currently pursuing a PhD at Polytechnique Montreal under the supervision of Chris Pal at Mila - Quebec AI Institute. In general, I'm interested in understanding the nature of intelligence, and developing intelligent systems for the benefit of humanity. My interests include artificial and biological systems (I used to work at the Montreal Neurological Institute), but these days I focus mostly on artificial neural networks. Below, you can see a few of the lines of research I've worked on and the relevant publications. For a complete list of my publications, check out <a href="https://scholar.google.ca/citations?hl=en&user=t7lQYWwAAAAJ">my Google Scholar</a>.</p>
+      <p>I completed my PhD at Polytechnique Montreal under the supervision of Chris Pal at Mila - Quebec AI Institute. In general, I'm interested in understanding the nature of intelligence, and developing intelligent systems for the benefit of humanity. My interests include artificial and biological systems (I used to work at the Montreal Neurological Institute), but these days I focus mostly on artificial neural networks. Below, you can see a few of the lines of research I've worked on and the relevant publications. For a complete list of my publications, check out <a href="https://scholar.google.ca/citations?hl=en&user=t7lQYWwAAAAJ">my Google Scholar</a>.</p>
+    </div>
+
+    <!-- Redesigning Information Markets -->
+    <div class="research-section">
+      <h2>Redesigning Information Markets with Language Models</h2>
+      <img src="images/info-markets.png" alt="Information Bazaar architecture diagram">
+      <p>How should information be bought and sold when language models can generate, summarize, and evaluate text? This line of research examines how LLMs reshape information markets by reducing the asymmetry between buyers and sellers. We show that language models can act as credible intermediaries, enabling new market mechanisms that address the classic buyer's inspection paradox. This work was presented at the First Conference on Language Modeling.</p>
+      <ul class="publications">
+        <li><a href="https://arxiv.org/abs/2403.14443">Language models can reduce asymmetry in information markets</a></li>
+        <li><a href="https://arxiv.org/abs/2403.14443">Redesigning information markets in the era of language models</a> (First Conference on Language Modeling, 2024)</li>
+        <li><a href="https://arxiv.org/abs/2403.14443">Rethinking the buyer's inspection paradox in information markets with language agents</a></li>
+      </ul>
+    </div>
+
+    <!-- Neural Attentive Circuits -->
+    <div class="research-section">
+      <h2>Neural Attentive Circuits</h2>
+      <img src="images/neural-attentive-circuits.png" alt="Neural Attentive Circuits architecture">
+      <p>Neural Attentive Circuits (NACs) are a general-purpose, modular architecture in which neural modules communicate through shared attention over a common set of data tokens. NACs enable flexible, compositional computation by allowing modules to be dynamically composed at inference time. This work was published at NeurIPS 2022.</p>
+      <ul class="publications">
+        <li><a href="https://arxiv.org/abs/2210.08031">Neural Attentive Circuits</a> (NeurIPS 2022)</li>
+      </ul>
+    </div>
+
+    <!-- XPRIZE Rainforest -->
+    <div class="research-section">
+      <h2>XPRIZE Rainforest - Limelight Rainforest</h2>
+      <img src="images/xprize-rainforest.jpg" alt="XPRIZE Rainforest - Discover, Understand, Preserve">
+      <p>I was a member of Limelight Rainforest, the winning team of the <a href="https://www.xprize.org/competitions/rainforest">XPRIZE Rainforest</a> competition ($10M grand prize). The competition challenged teams to develop novel technologies for rapid, autonomous surveying of tropical rainforest biodiversity. Our team developed methods for high-resolution detection and classification of species from aerial and ground-based sensor data.</p>
+      <ul class="publications">
+        <li><a href="https://arxiv.org/abs/2507.00170">SelvaBox: A high-resolution dataset for tropical tree crown detection</a></li>
+      </ul>
     </div>
 
     <!-- Two-column grid: NAVI and Gene Graph Convolutions -->
@@ -51,7 +70,7 @@
       <div class="research-section">
         <h2>NAVI - Assistive technology for the blind</h2>
         <img src="images/navi.jpg" alt="navi2.jpg">
-        <p>In this project, we are developing a Navigational Assistant for the Visually Impaired (NAVI). Our is to assist the blind and visually impaired with getting around unmapped urban environments (e.g. apartment complexes) and performing precision navigation (finding a specific door). The long-term goal is to deploy NAVI to mobile devices and enable vision-based pedestrian navigation to target addresses with no internet connection required.</p>
+        <p>In this project, we developed a Navigational Assistant for the Visually Impaired (NAVI) to assist the blind and visually impaired with getting around unmapped urban environments (e.g. apartment complexes) and performing precision navigation (finding a specific door).</p>
         <ul class="publications">
           <li><a href="https://arxiv.org/abs/1811.10120">A Survey of Mobile Computing for the Visually Impaired</a></li>
           <li><a href="https://arxiv.org/abs/1910.13249">Navigation Agents for the Visually Impaired: A Sidewalk Simulator and Experiments</a></li>
@@ -62,7 +81,7 @@
       <div class="research-section">
         <h2>Gene Graph Convolutions</h2>
         <img src="images/gene-graph.png" alt="Screen Shot 2019-03-04 at 11.16.57 AM.png">
-        <p>Recent advances in next generation sequencing technology are reducing the cost of acquiring gene expression data. This enables improved treatment and clinical outcomes for cancer patients. We are using graph convolutional neural networks and gene-gene interaction graphs to make better predictions in this low-data regime.</p>
+        <p>Recent advances in next generation sequencing technology are reducing the cost of acquiring gene expression data. This enables improved treatment and clinical outcomes for cancer patients. We used graph convolutional neural networks and gene-gene interaction graphs to make better predictions in this low-data regime.</p>
         <ul class="publications">
           <li><a href="https://arxiv.org/pdf/1806.06975.pdf">Towards Gene Expression Convolutions using Gene Interaction Graphs</a></li>
           <li><a href="https://arxiv.org/abs/1905.02295">Analysis of Gene Interaction Graphs as Prior Knowledge for Machine Learning Models</a></li>
@@ -83,7 +102,6 @@
       <h2>COVI - A risk prediction app against Covid-19</h2>
       <p>In April 2020, in the midst of the Covid pandemic, I joined Yoshua Bengio in working to develop a contact tracing application for deployment in partnership with the federal and provincial governments. The result of which was <a href="https://mila.quebec/en/project/covi/">COVI, a research project</a> which resulted in the development of an AI-enabled health mobile application to empower citizens in their fight against the COVID-19 virus. I was a lead author of several of the academic works describing that system, linked below.</p>
       <p>Made in Canada, the app was created to help citizens make better informed decisions about their actions to reduce risk, while preserving individual privacy. The COVI app draws on epidemiology, behavioral psychology and artificial intelligence to propose an innovative approach to contact tracing mobile technology.</p>
-      <p>The design and development phase of the project has been finalized. Our codes and models are available in open source for academic consumption and accessible to states should they wish to deploy an AI-enable health app inspired by our approach.</p>
       <ul class="publications">
         <li><a href="https://arxiv.org/abs/2005.08502">COVI White Paper</a></li>
         <li><a href="https://arxiv.org/abs/2010.16004">COVI-AgentSim: an Agent-based Model for Evaluating Methods of Digital Contact Tracing</a></li>
@@ -97,7 +115,7 @@
   <footer class="site-footer">
     <div>
       Martin Weiss is an entrepreneur and researcher<br>
-      pursuing a doctorate at <a href="https://mila.quebec/">Mila</a> / <a href="https://polymtl.ca/">Polytechnique</a> in Montr&eacute;al
+      PhD from <a href="https://mila.quebec/">Mila</a> / <a href="https://polymtl.ca/">Polytechnique</a> in Montr&eacute;al
     </div>
     <div class="footer-social">
       <!-- LinkedIn -->
@@ -111,10 +129,6 @@
       <!-- GitHub -->
       <a href="https://github.com/mweiss17" aria-label="GitHub">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-      </a>
-      <!-- SoundCloud -->
-      <a href="http://soundcloud.com/rmfrstar" aria-label="SoundCloud">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c-.009-.057-.05-.1-.1-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.172 1.308c.013.06.045.094.104.094.057 0 .09-.037.104-.09l.2-1.312-.2-1.334c-.014-.057-.047-.09-.104-.09m1.8-1.394c-.063 0-.11.05-.116.104l-.218 2.716.218 2.613c.006.06.053.104.116.104.062 0 .108-.044.116-.104l.246-2.613-.246-2.716c-.008-.058-.054-.104-.116-.104m.899-.546c-.073 0-.124.058-.131.12l-.2 3.262.2 3.134c.007.064.058.12.131.12.072 0 .123-.056.131-.12l.228-3.134-.228-3.262c-.008-.062-.059-.12-.131-.12m.899-.378c-.082 0-.14.066-.145.134l-.182 3.64.182 3.453c.005.072.063.134.145.134.08 0 .138-.062.144-.134l.206-3.453-.206-3.64c-.006-.068-.063-.134-.144-.134m.898-.312c-.09 0-.154.074-.16.148l-.163 3.952.163 3.653c.006.078.07.148.16.148.09 0 .152-.07.16-.148l.186-3.653-.186-3.952c-.008-.074-.07-.148-.16-.148m.955-.242c-.1 0-.168.082-.174.163l-.148 4.194.148 3.732c.006.084.074.163.174.163.098 0 .166-.079.174-.163l.168-3.732-.168-4.194c-.008-.08-.076-.163-.174-.163m.955-.182c-.11 0-.182.09-.188.178l-.132 4.376.132 3.771c.006.092.078.178.188.178.108 0 .18-.086.188-.178l.15-3.771-.15-4.376c-.008-.088-.08-.178-.188-.178m1.01-.135c-.12 0-.196.098-.202.194l-.114 4.51.114 3.792c.006.1.082.194.202.194.118 0 .194-.094.202-.194l.13-3.792-.13-4.51c-.008-.096-.084-.194-.202-.194m1.01-.063c-.13 0-.208.106-.214.208l-.098 4.574.098 3.8c.006.106.084.208.214.208.128 0 .206-.102.214-.208l.112-3.8-.112-4.574c-.008-.102-.086-.208-.214-.208m1.065.04c-.14 0-.222.114-.228.222l-.082 4.534.082 3.794c.006.112.088.222.228.222.138 0 .22-.11.228-.222l.094-3.794-.094-4.534c-.008-.108-.09-.222-.228-.222m1.065.13c-.15 0-.236.12-.242.234l-.066 4.404.066 3.782c.006.118.092.234.242.234.148 0 .234-.116.242-.234l.076-3.782-.076-4.404c-.008-.114-.094-.234-.242-.234m1.065.107c-.16 0-.248.13-.254.248l-.05 4.297.05 3.77c.006.124.094.248.254.248.158 0 .246-.124.254-.248l.058-3.77-.058-4.297c-.008-.118-.096-.248-.254-.248m1.12.125c-.17 0-.26.138-.268.26l-.034 4.172.034 3.755c.008.128.098.26.268.26.168 0 .258-.132.268-.26l.04-3.755-.04-4.172c-.01-.122-.1-.26-.268-.26m1.12.087c-.178 0-.274.146-.282.274l-.018 4.085.018 3.742c.008.134.104.274.282.274.176 0 .272-.14.282-.274l.02-3.742-.02-4.085c-.01-.128-.106-.274-.282-.274m1.678-.62c-.263 0-.444.16-.444.388v8.07c0 .228.181.398.444.398h5.678c2.133 0 3.867-1.702 3.867-3.8 0-2.1-1.734-3.8-3.867-3.8-.525 0-1.026.106-1.484.29-.298-1.714-1.817-3.02-3.636-3.02-.376 0-.748.058-1.098.163-.13.04-.174.08-.174.163v.148"/></svg>
       </a>
     </div>
     <a href="#header" class="back-to-top">Back to Top</a>

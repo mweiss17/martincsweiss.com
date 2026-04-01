@@ -161,6 +161,11 @@ ul {
   text-align: center;
 }
 
+.homepage .homepage-layout {
+  display: flex;
+  flex-direction: column;
+}
+
 .homepage .hero-image {
   width: 100%;
   height: 55vw;
@@ -182,6 +187,30 @@ ul {
   margin: 0 auto;
   padding: 0;
   text-align: left;
+}
+
+@media (min-width: 1000px) {
+  .homepage .homepage-layout {
+    flex-direction: row;
+    min-height: 100vh;
+  }
+
+  .homepage .hero-image {
+    flex: 1;
+    height: auto;
+    max-height: none;
+  }
+
+  .homepage .content-block {
+    flex: 0 0 500px;
+    width: 500px;
+    max-width: 500px;
+    margin: 0;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .homepage .name-title {
